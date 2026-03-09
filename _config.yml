@@ -17,7 +17,7 @@ minimal_mistakes_skin: "default"
 # Site settings
 title: "Chris Pollitt's GitHub Site"
 email: chris.pollitt@gmail.com
-description: "This is just a test site for now."
+description: "Who I am and some of what I've created."
 baseurl: ""
 url: "https://chrispollitt.github.io"
 
@@ -27,10 +27,13 @@ markdown: kramdown
 # Author profile (shown in sidebar)
 author:
   name: "Chris Pollitt"
-  avatar: ""  # Path to avatar image, e.g. "/assets/images/avatar.jpg"
-  bio: ""     # Short bio shown under avatar
+  avatar: "/assets/images/avatar.jpg"  
+  bio: "Coder, Facilitator, Laugher, Philosopher"     # Short bio shown under avatar
   location: "Metro Vancouver, BC"
   links:
+    - label: "About"
+      icon: "fab fa-fw fa-about"
+      url: "https://chrispollitt.github.io/about/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/christopherpollitt"
@@ -39,7 +42,7 @@ author:
       url: "https://github.com/chrispollitt"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/@AdventuresInTerminalLand"  # Update if different
+      url: "https://www.youtube.com/watch?v=W0wiSz2KoqA&list=PLeUBBmcqYU_8Q2FG3QUi-O98GCkm4vNwF&pp=sAgC" 
 
 # Footer links
 footer:
