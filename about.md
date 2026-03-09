@@ -28,7 +28,7 @@ Alongside the infrastructure work, there's always been a parallel track of proje
 - **CWP!** — a reconstructed Apple //e BASIC program, because the Apple II deserves respect
 - **Bidet** — a Sixel large-font tool (the name is funnier in context)
 - **"Name in Lights"** — a marquee implementation spanning VMS, Apple II, DOS, and Perl/Windows, because one platform was never enough
-- **Adventures in Terminal Land** — a [YouTube channel](https://www.youtube.com/@AdventuresInTerminalLand) documenting retro computing projects for the small but enthusiastic audience that finds this sort of thing as compelling as I do
+- **Adventures in Terminal Land** — a [YouTube channel](https://www.youtube.com/watch?v=W0wiSz2KoqA&list=PLeUBBmcqYU_8Q2FG3QUi-O98GCkm4vNwF&pp=sAgC) documenting retro computing projects for the small but enthusiastic audience that finds this sort of thing as compelling as I do
 
 More recently: a **haunted/possessed LCD clock** with a Snake easter egg, a paranoia engine, segment drift animation, and synthesized haunted sounds. Also **Maze4**, a fruitbot racing game with procedural sound effects and live commentary. These exist because they should.
 
