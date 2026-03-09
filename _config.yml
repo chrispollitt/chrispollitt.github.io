@@ -1,41 +1,76 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Chris Pollitt's GitHub site - _config.yml
+# Using Minimal Mistakes theme (remote) for GitHub Pages
+# Docs: https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+
+# Required for Minimal Mistakes on GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-include-cache  # Required by Minimal Mistakes - also add to Gemfile
+
+# Theme skin: "default", "air", "aqua", "contrast", "dark", "dirt", "mint", "neon", "plum", "sunrise"
+minimal_mistakes_skin: "default"
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Chris Pollitt's GitHub site
+title: "Chris Pollitt's GitHub Site"
 email: chris.pollitt@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  This is just a test site for now.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: cpollitt
-github_username:  chrispollitt
+description: "This is just a test site for now."
+baseurl: ""
+url: "https://chrispollitt.github.io"
 
 # Build settings
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Author profile (shown in sidebar)
+author:
+  name: "Chris Pollitt"
+  avatar: ""  # Path to avatar image, e.g. "/assets/images/avatar.jpg"
+  bio: ""     # Short bio shown under avatar
+  location: "Metro Vancouver, BC"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/christopherpollitt"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/chrispollitt"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@AdventuresInTerminalLand"  # Update if different
+
+# Footer links
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/christopherpollitt"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/chrispollitt"
+
+# Post defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
